@@ -1,0 +1,13 @@
+A = str(input("Please enter a sentnece: ")).upper()
+print(A)
+Words = len(A.split())
+print(f"The number of words in the input is {Words}")
+print(A.replace("O","A").replace("o","a"))
+print(len(A))
+B = str(input("Please enter a string: "))
+print(B.isdigit())
+
+Full_Name = input("Enter your full name: ")
+names = Full_Name.split()
+initials = ''.join(name[0].upper()for name in names)
+print(initials)
