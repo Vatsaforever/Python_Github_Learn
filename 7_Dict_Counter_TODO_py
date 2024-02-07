@@ -1,0 +1,13 @@
+# To do after loops lesson
+#Write a program in Python that uses a dictionary to store how many times each item has been seen. The program should ask the user to enter a list of items, one at a time. When the user has finished entering items, the program should display a count of how many times each item was entered.
+#Here's an example of how the program might work:
+#Enter an item (or 'done' to finish): apple
+# Enter an item (or 'done' to finish): banana
+# Enter an item (or 'done' to finish): apple
+# Enter an item (or 'done' to finish): orange
+# Enter an item (or 'done' to finish): done
+# Item counts:
+# apple: 2
+# banana: 1
+# orange: 1
+# To accomplish this, you will need to create an empty dictionary to store the counts, and then iterate over the user's input, adding items to the dictionary and incrementing their counts as necessary. Once the user has finished entering items, you can use a loop to iterate over the dictionary and print out the counts.
